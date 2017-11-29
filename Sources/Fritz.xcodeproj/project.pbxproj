@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA50D8341FCF3C08001D067A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D8331FCF3C08001D067A /* News.swift */; };
+		EA50D8361FCF3D85001D067A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D8351FCF3D85001D067A /* Order.swift */; };
+		EA50D8381FCF3EB1001D067A /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D8371FCF3EB1001D067A /* Plan.swift */; };
+		EA50D83A1FCF3FAD001D067A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D8391FCF3FAD001D067A /* Recipe.swift */; };
+		EA50D83C1FCF5097001D067A /* RecipePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D83B1FCF5097001D067A /* RecipePreview.swift */; };
+		EA50D8401FCF5265001D067A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50D83F1FCF5265001D067A /* User.swift */; };
 		EADFA75C1FCF30D3008EE81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */; };
 		EADFA75E1FCF30D3008EE81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA75D1FCF30D3008EE81E /* ViewController.swift */; };
 		EADFA7601FCF30D3008EE81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADFA75F1FCF30D3008EE81E /* Assets.xcassets */; };
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA50D8331FCF3C08001D067A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		EA50D8351FCF3D85001D067A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EA50D8371FCF3EB1001D067A /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		EA50D8391FCF3FAD001D067A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EA50D83B1FCF5097001D067A /* RecipePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreview.swift; sourceTree = "<group>"; };
+		EA50D83F1FCF5265001D067A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EADFA7581FCF30D3008EE81E /* Fritz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fritz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADFA75D1FCF30D3008EE81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +85,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA50D8321FCF3B8A001D067A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA50D8331FCF3C08001D067A /* News.swift */,
+				EA50D8351FCF3D85001D067A /* Order.swift */,
+				EA50D8371FCF3EB1001D067A /* Plan.swift */,
+				EA50D8391FCF3FAD001D067A /* Recipe.swift */,
+				EA50D83B1FCF5097001D067A /* RecipePreview.swift */,
+				EA50D83F1FCF5265001D067A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EADFA74F1FCF30D3008EE81E = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +107,7 @@
 				EADFA7591FCF30D3008EE81E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		EADFA7591FCF30D3008EE81E /* Products */ = {
 			isa = PBXGroup;
@@ -96,6 +122,7 @@
 		EADFA75A1FCF30D3008EE81E /* Fritz */ = {
 			isa = PBXGroup;
 			children = (
+				EA50D8321FCF3B8A001D067A /* Models */,
 				EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */,
 				EADFA75D1FCF30D3008EE81E /* ViewController.swift */,
 				EADFA75F1FCF30D3008EE81E /* Assets.xcassets */,
@@ -188,7 +215,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "Geert-Jan Nilsen";
+				ORGANIZATIONNAME = AppFact;
 				TargetAttributes = {
 					EADFA7571FCF30D3008EE81E = {
 						CreatedOnToolsVersion = 9.1;
@@ -257,8 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA50D8341FCF3C08001D067A /* News.swift in Sources */,
+				EA50D83A1FCF3FAD001D067A /* Recipe.swift in Sources */,
 				EADFA75E1FCF30D3008EE81E /* ViewController.swift in Sources */,
+				EA50D8361FCF3D85001D067A /* Order.swift in Sources */,
+				EA50D8401FCF5265001D067A /* User.swift in Sources */,
 				EADFA75C1FCF30D3008EE81E /* AppDelegate.swift in Sources */,
+				EA50D8381FCF3EB1001D067A /* Plan.swift in Sources */,
+				EA50D83C1FCF5097001D067A /* RecipePreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

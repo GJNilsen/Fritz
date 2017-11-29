@@ -3,7 +3,7 @@
 //  FritzTests
 //
 //  Created by Geert-Jan Nilsen on 29/11/2017.
-//  Copyright © 2017 Geert-Jan Nilsen. All rights reserved.
+//  Copyright © 2017 AppFact. All rights reserved.
 //
 
 import XCTest
