@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADFA75C1FCF30D3008EE81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */; };
+		EADFA75E1FCF30D3008EE81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA75D1FCF30D3008EE81E /* ViewController.swift */; };
+		EADFA7601FCF30D3008EE81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADFA75F1FCF30D3008EE81E /* Assets.xcassets */; };
+		EADFA7631FCF30D3008EE81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADFA7611FCF30D3008EE81E /* Main.storyboard */; };
+		EADFA76F1FCF30D3008EE81E /* FritzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA76E1FCF30D3008EE81E /* FritzTests.swift */; };
+		EADFA77A1FCF30D3008EE81E /* FritzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFA7791FCF30D3008EE81E /* FritzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADFA76B1FCF30D3008EE81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADFA7501FCF30D3008EE81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADFA7571FCF30D3008EE81E;
+			remoteInfo = Fritz;
+		};
+		EADFA7761FCF30D3008EE81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADFA7501FCF30D3008EE81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADFA7571FCF30D3008EE81E;
+			remoteInfo = Fritz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADFA7581FCF30D3008EE81E /* Fritz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fritz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADFA75D1FCF30D3008EE81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EADFA75F1FCF30D3008EE81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADFA7621FCF30D3008EE81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADFA7641FCF30D3008EE81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADFA7651FCF30D3008EE81E /* Fritz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fritz.entitlements; sourceTree = "<group>"; };
+		EADFA76A1FCF30D3008EE81E /* FritzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FritzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADFA76E1FCF30D3008EE81E /* FritzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FritzTests.swift; sourceTree = "<group>"; };
+		EADFA7701FCF30D3008EE81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADFA7751FCF30D3008EE81E /* FritzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FritzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADFA7791FCF30D3008EE81E /* FritzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FritzUITests.swift; sourceTree = "<group>"; };
+		EADFA77B1FCF30D3008EE81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADFA7551FCF30D3008EE81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7671FCF30D3008EE81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7721FCF30D3008EE81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADFA74F1FCF30D3008EE81E = {
+			isa = PBXGroup;
+			children = (
+				EADFA75A1FCF30D3008EE81E /* Fritz */,
+				EADFA76D1FCF30D3008EE81E /* FritzTests */,
+				EADFA7781FCF30D3008EE81E /* FritzUITests */,
+				EADFA7591FCF30D3008EE81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADFA7591FCF30D3008EE81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADFA7581FCF30D3008EE81E /* Fritz.app */,
+				EADFA76A1FCF30D3008EE81E /* FritzTests.xctest */,
+				EADFA7751FCF30D3008EE81E /* FritzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADFA75A1FCF30D3008EE81E /* Fritz */ = {
+			isa = PBXGroup;
+			children = (
+				EADFA75B1FCF30D3008EE81E /* AppDelegate.swift */,
+				EADFA75D1FCF30D3008EE81E /* ViewController.swift */,
+				EADFA75F1FCF30D3008EE81E /* Assets.xcassets */,
+				EADFA7611FCF30D3008EE81E /* Main.storyboard */,
+				EADFA7641FCF30D3008EE81E /* Info.plist */,
+				EADFA7651FCF30D3008EE81E /* Fritz.entitlements */,
+			);
+			path = Fritz;
+			sourceTree = "<group>";
+		};
+		EADFA76D1FCF30D3008EE81E /* FritzTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADFA76E1FCF30D3008EE81E /* FritzTests.swift */,
+				EADFA7701FCF30D3008EE81E /* Info.plist */,
+			);
+			path = FritzTests;
+			sourceTree = "<group>";
+		};
+		EADFA7781FCF30D3008EE81E /* FritzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EADFA7791FCF30D3008EE81E /* FritzUITests.swift */,
+				EADFA77B1FCF30D3008EE81E /* Info.plist */,
+			);
+			path = FritzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADFA7571FCF30D3008EE81E /* Fritz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADFA77E1FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "Fritz" */;
+			buildPhases = (
+				EADFA7541FCF30D3008EE81E /* Sources */,
+				EADFA7551FCF30D3008EE81E /* Frameworks */,
+				EADFA7561FCF30D3008EE81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fritz;
+			productName = Fritz;
+			productReference = EADFA7581FCF30D3008EE81E /* Fritz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADFA7691FCF30D3008EE81E /* FritzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADFA7811FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "FritzTests" */;
+			buildPhases = (
+				EADFA7661FCF30D3008EE81E /* Sources */,
+				EADFA7671FCF30D3008EE81E /* Frameworks */,
+				EADFA7681FCF30D3008EE81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADFA76C1FCF30D3008EE81E /* PBXTargetDependency */,
+			);
+			name = FritzTests;
+			productName = FritzTests;
+			productReference = EADFA76A1FCF30D3008EE81E /* FritzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EADFA7741FCF30D3008EE81E /* FritzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADFA7841FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "FritzUITests" */;
+			buildPhases = (
+				EADFA7711FCF30D3008EE81E /* Sources */,
+				EADFA7721FCF30D3008EE81E /* Frameworks */,
+				EADFA7731FCF30D3008EE81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADFA7771FCF30D3008EE81E /* PBXTargetDependency */,
+			);
+			name = FritzUITests;
+			productName = FritzUITests;
+			productReference = EADFA7751FCF30D3008EE81E /* FritzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADFA7501FCF30D3008EE81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Geert-Jan Nilsen";
+				TargetAttributes = {
+					EADFA7571FCF30D3008EE81E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EADFA7691FCF30D3008EE81E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EADFA7571FCF30D3008EE81E;
+					};
+					EADFA7741FCF30D3008EE81E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EADFA7571FCF30D3008EE81E;
+					};
+				};
+			};
+			buildConfigurationList = EADFA7531FCF30D3008EE81E /* Build configuration list for PBXProject "Fritz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADFA74F1FCF30D3008EE81E;
+			productRefGroup = EADFA7591FCF30D3008EE81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADFA7571FCF30D3008EE81E /* Fritz */,
+				EADFA7691FCF30D3008EE81E /* FritzTests */,
+				EADFA7741FCF30D3008EE81E /* FritzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADFA7561FCF30D3008EE81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADFA7601FCF30D3008EE81E /* Assets.xcassets in Resources */,
+				EADFA7631FCF30D3008EE81E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7681FCF30D3008EE81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7731FCF30D3008EE81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADFA7541FCF30D3008EE81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADFA75E1FCF30D3008EE81E /* ViewController.swift in Sources */,
+				EADFA75C1FCF30D3008EE81E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7661FCF30D3008EE81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADFA76F1FCF30D3008EE81E /* FritzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADFA7711FCF30D3008EE81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADFA77A1FCF30D3008EE81E /* FritzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADFA76C1FCF30D3008EE81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADFA7571FCF30D3008EE81E /* Fritz */;
+			targetProxy = EADFA76B1FCF30D3008EE81E /* PBXContainerItemProxy */;
+		};
+		EADFA7771FCF30D3008EE81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADFA7571FCF30D3008EE81E /* Fritz */;
+			targetProxy = EADFA7761FCF30D3008EE81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADFA7611FCF30D3008EE81E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADFA7621FCF30D3008EE81E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADFA77C1FCF30D3008EE81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADFA77D1FCF30D3008EE81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EADFA77F1FCF30D3008EE81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fritz/Fritz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = Fritz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.Fritz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EADFA7801FCF30D3008EE81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fritz/Fritz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = Fritz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.Fritz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		EADFA7821FCF30D3008EE81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = FritzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.FritzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fritz.app/Contents/MacOS/Fritz";
+			};
+			name = Debug;
+		};
+		EADFA7831FCF30D3008EE81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = FritzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.FritzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fritz.app/Contents/MacOS/Fritz";
+			};
+			name = Release;
+		};
+		EADFA7851FCF30D3008EE81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = FritzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.FritzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Fritz;
+			};
+			name = Debug;
+		};
+		EADFA7861FCF30D3008EE81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 784F7MSSDM;
+				INFOPLIST_FILE = FritzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.appfact.FritzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Fritz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADFA7531FCF30D3008EE81E /* Build configuration list for PBXProject "Fritz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADFA77C1FCF30D3008EE81E /* Debug */,
+				EADFA77D1FCF30D3008EE81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADFA77E1FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "Fritz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADFA77F1FCF30D3008EE81E /* Debug */,
+				EADFA7801FCF30D3008EE81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADFA7811FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "FritzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADFA7821FCF30D3008EE81E /* Debug */,
+				EADFA7831FCF30D3008EE81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADFA7841FCF30D3008EE81E /* Build configuration list for PBXNativeTarget "FritzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADFA7851FCF30D3008EE81E /* Debug */,
+				EADFA7861FCF30D3008EE81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADFA7501FCF30D3008EE81E /* Project object */;
+}
